@@ -8,3 +8,4 @@
 
 # How to.. #
 Follow the orders above and run start.bat with admin rights.
+Video: https://www.youtube.com/watch?v=xaFhqtVrVuk
