@@ -12,5 +12,5 @@ AmericanMegatrendsInc.-207 *(Added Win8, Win10 support)
 AmericanMegatrendsInc.-207-Unlocked *(Modded version, many hidden options unlocked)
 
 # How to.. #
-Follow the orders above and run start.bat with admin rights.
+Run start.bat
 Video: https://www.youtube.com/watch?v=xaFhqtVrVuk
