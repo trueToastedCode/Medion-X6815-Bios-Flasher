@@ -6,6 +6,11 @@
 
 (3) Before using this program, create a backup of your current bios using Universal BIOS Backup ToolKit and SAVE it OUSIDE your device (https://www.majorgeeks.com/files/details/universal_bios_backup_toolkit.html).
 
+# ROM Info
+AmericanMegatrendsInc.-206 *(Stock)
+AmericanMegatrendsInc.-207 *(Added Win8, Win10 support)
+AmericanMegatrendsInc.-207-Unlocked *(Modded version, many hidden options unlocked)
+
 # How to.. #
 Follow the orders above and run start.bat with admin rights.
 Video: https://www.youtube.com/watch?v=xaFhqtVrVuk
