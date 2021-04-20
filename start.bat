@@ -75,8 +75,9 @@ echo # Select file #
 echo (1) AmericanMegatrendsInc.-206 *(Stock)
 echo (2) AmericanMegatrendsInc.-207 *(Added Win8, Win10 support)
 echo (3) AmericanMegatrendsInc.-207-Unlocked *(Modded version, many hidden options unlocked)
-echo (4) Other
-echo (5) About
+echo (4) AmericanMegatrendsInc.-207-Unlocked-MicrocodeUpdate *(Microcode for CPUID 206A7 updated)
+echo (5) Other
+echo (6) About
 
 :file2
 set /p input="-> "
@@ -88,8 +89,10 @@ if %input% == 1 (
 )else if %input% == 3 (
 	set fname=AmericanMegatrendsInc.-207-Unlocked.rom
 )else if %input% == 4 (
-	set /p fname="Enter filename (file must be in this folder) -> "
+	set fname=AmericanMegatrendsInc.-207-Unlocked-MicrocodeUpdate.rom
 )else if %input% == 5 (
+	set /p fname="Enter filename (file must be in this folder) -> "
+)else if %input% == 6 (
 	cls
 	echo.
 	echo   /$$$$$$            /$$$$$$         
@@ -160,7 +163,7 @@ echo.
 REM Prepare for flash
 echo # Flash #
 echo CLOSE EVERY PROGRAM! DISCONNCET ALL USB DEVICES! You don't wan't to risk a bluescreen.
-echo Hint: If message bios cannot be updated, try to restart this program
+echo Hint: If the message bios cannot be updated appears, restart this program.
 set /p input="Start (Y/N) -> "
 if not %input% == Y if not %input% == y (
 	echo Abort
