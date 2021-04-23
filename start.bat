@@ -76,8 +76,9 @@ echo (1) AmericanMegatrendsInc.-206 *(Stock)
 echo (2) AmericanMegatrendsInc.-207 *(Added Win8, Win10 support)
 echo (3) AmericanMegatrendsInc.-207-Unlocked *(Modded version, many hidden options unlocked)
 echo (4) AmericanMegatrendsInc.-207-Unlocked-MicrocodeUpdate *(Microcode for CPUID 206A7 updated)
-echo (5) Other
-echo (6) About
+echo (5) AmericanMegatrendsInc.-207-Unlocked-Microcode-VBIOS *(VBIOS from 2108 to 2171 updated)
+echo (6) Other
+echo (7) About
 
 :file2
 set /p input="-> "
@@ -91,8 +92,10 @@ if %input% == 1 (
 )else if %input% == 4 (
 	set fname=AmericanMegatrendsInc.-207-Unlocked-MicrocodeUpdate.rom
 )else if %input% == 5 (
-	set /p fname="Enter filename (file must be in this folder) -> "
+	set fname=AmericanMegatrendsInc.-207-Unlocked-Microcode-VBIOS.rom
 )else if %input% == 6 (
+	set /p fname="Enter filename (file must be in this folder) -> "
+)else if %input% == 7 (
 	cls
 	echo.
 	echo   /$$$$$$            /$$$$$$         
