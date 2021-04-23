@@ -9,6 +9,8 @@
 AmericanMegatrendsInc.-206 *(Stock)
 AmericanMegatrendsInc.-207 *(Added Win8, Win10 support)
 AmericanMegatrendsInc.-207-Unlocked *(Modded version, many hidden options unlocked)
+AmericanMegatrendsInc.-207-Unlocked-MicrocodeUpdate *(Microcode for CPUID 206A7 updated)
+AmericanMegatrendsInc.-207-Unlocked-Microcode-VBIOS *(VBIOS from 2108 to 2171 updated)
 
 # How to.. #
 Run start.bat
